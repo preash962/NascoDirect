@@ -1,0 +1,113 @@
+body{
+    background-color: #EC9918;
+}
+.div1{ 
+    display: flex;
+    margin-left: 200px;
+    margin: 50px;
+} 
+#logo{ 
+  margin: 20px;
+  font-weight: bold;
+}
+.list ul{ 
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    margin-left:  400px;
+}
+.list ul li{
+    margin-left:40px;
+    margin-top: 20px;
+    font-weight: bold;
+    ;
+}
+#nav-buttons{ 
+    margin-left: 400px;
+}
+#nav-buttons button{
+    border-radius: 20px;
+    font: bold ; 
+    padding: 10px;
+    width: 98px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.log-in{
+    border-color: white;
+    color: white;  
+    border-style: solid;
+    background-color: #EC9918;
+    
+}
+.sign-up{
+    color:#EC9918 ;
+    background-color: white;
+    border: none;
+}
+.initial{
+    display: flex;
+    margin-left: 100px;
+}
+.image{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.div2{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 100px;
+    
+}
+.order span p{
+    margin: 2px;
+}
+.order .sp1{
+    color: white;
+    text-align: right;
+}
+.order .sp2{
+    border-left: 5px solid red;
+    height: 110px;
+    color: red;
+}
+.order input{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-color: white;
+    border-radius: 15px;
+    margin-left: 120px;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    background-color: #EC9918;
+    
+}
+::placeholder{
+    color: white;
+}
+.image .app{
+    position: absolute;
+}
+.image .car{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+#g-search{
+    display: inline-block;
+    position: relative;
+    color: red;
+    left: 170px;
+    top: 7px;
+}
